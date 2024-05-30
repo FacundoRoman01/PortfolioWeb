@@ -11,10 +11,12 @@
     max-width: 200px;
   }
 
+ 
   span {
     display: flex;
     gap: 25px;
     justify-content: center;
+    color: lightblue;
 
     a {
       margin: 0;

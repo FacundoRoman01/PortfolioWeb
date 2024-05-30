@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="50px" height="50px">
+  <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+    <g transform="scale(5.12,5.12)">
+      <path d="M36,4H16C8.82,4,4,8.82,4,16v20c0,7.18,4.82,12,12,12h20c7.18,0,12-4.82,12-12V16C48,8.82,43.18,4,36,4zM24,34c-5.52,0-10-4.48-10-10s4.48-10,10-10s10,4.48,10,10S29.52,34,24,34zM38.5,13.5c-1.38,0-2.5-1.12-2.5-2.5s1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5S39.88,13.5,38.5,13.5z"/>
+      <circle cx="24" cy="24" r="6"/>
+    </g>
+  </g>
+</svg>

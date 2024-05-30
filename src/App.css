@@ -1,6 +1,6 @@
 :root {
   --background-color: #fff;
-  --btn-color: #0987f2;
+  --btn-color: lightblue;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #222;
@@ -68,7 +68,10 @@ p {
 
 .sectionTitle {
   margin-bottom: 30px;
+  
+ 
 }
+
 
 .hover {
   cursor: pointer;
