@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+//import heroImg from '../../assets/Design uten navn.png';
+import fotoPerfil from "../../assets/foto-perfil.jpeg";
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import instagramLight from '../../assets/instagram-light.svg';
@@ -23,9 +24,9 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          src={heroImg}
+          src={fotoPerfil}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt=""
         />
         <img
           className={styles.colorMode}
@@ -35,10 +36,10 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <h1 className='"tracking-in-expand"'>
+        <h1 className="tracking-in-expand-fwd">
           Facundo
           <br />
-          <span className='color-apellid'>Roman</span>
+          <span className='color-apellid tracking-in-expand-fwd'>Roman</span>
         </h1>
         <h2>Software Developer</h2>
         <span>
