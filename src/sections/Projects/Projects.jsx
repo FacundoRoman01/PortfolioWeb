@@ -1,7 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import logo from "../../assets/logo.jpg";
+// import logo from "../../assets/logo.jpg";
 import libro from "../../assets/libro.png";
 import mates from '../../assets/mates.png';
+import fr from '../../assets/fr-pinamar.jpg';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -14,7 +15,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={logo }
+          src={fr }
           link="https://fr-pinamar.netlify.app/index.html"
           h3="FR"
           p="Agencia de Marketing"

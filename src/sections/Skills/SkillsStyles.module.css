@@ -1,4 +1,4 @@
-.container {
+ .container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,7 +11,7 @@
   }
 
   img {
-    width: 20px;
+    width: 95px;
     
   }
 }
@@ -19,6 +19,7 @@
 
 .skillList {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-self: center;
   flex-wrap: wrap;
@@ -36,9 +37,11 @@ hr {
 }
 
 @media (width >= 800px) {
+  
   .skillList {
     max-width: fit-content;
     gap: 30px;
+ 
 
     p {
       font-size: 20px;
@@ -48,4 +51,16 @@ hr {
   hr {
     width: 300px;
   }
+} 
+
+
+@media screen and (min-width : 300px) {
+  .skillList {
+    max-width: fit-content;
+    gap: 20px;
+    
+  }
+
+
 }
+
