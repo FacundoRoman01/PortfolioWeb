@@ -54,7 +54,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        Especializado en el desarrollo de páginas web modernas para una variedad de negocios comerciales.
+        Me caracterizo por ser responsable y profesional en diversos proyectos. Les dejo mi CV para que puedan conocer más sobre mi trayectoria y habilidades.
         </p>
         <a>
           <button className="hover" title='Preparando el curriculum'>CV</button>
